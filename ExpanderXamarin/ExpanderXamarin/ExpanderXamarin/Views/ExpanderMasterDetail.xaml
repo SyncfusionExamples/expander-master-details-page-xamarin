@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExpanderXamarin.Views.ExpanderMasterDetail"
+             xmlns:pages="clr-namespace:ExpanderXamarin.Views" MasterBehavior="Popover" Padding="0,40,0,0">
+    <MasterDetailPage.Master>
+        <pages:ExpanderMasterDetailMaster x:Name="MasterPage" />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <pages:ExpanderMasterDetailDetail />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
