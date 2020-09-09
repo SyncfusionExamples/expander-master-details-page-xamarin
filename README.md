@@ -1,6 +1,6 @@
 # How to load Expander into MasterDetailsPage in Xamarin.Forms (SfExpander)
 
-You can load the SfExpander in the MasterDetailPage in Xamarin.Forms.
+You can load the SfExpander[https://help.syncfusion.com/xamarin/expander/getting-started] in the [MasterDetailPage](https://docs.microsoft.com/en-us/dotnet/api/xamarin.forms.masterdetailpage) in Xamarin.Forms.
 
 You can also refer the folloiwng article.
 
@@ -8,7 +8,7 @@ https://www.syncfusion.com/kb/11923/how-to-work-with-expander-in-the-masterdetai
 
 **XAML**
 
-Load SfExpander in the Master page of the MasterDetailPage.
+Load **SfExpander** in the [Master](https://docs.microsoft.com/en-us/dotnet/api/xamarin.forms.masterdetailpage.master#Xamarin_Forms_MasterDetailPage_Master) page of the **MasterDetailPage**.
 
 ``` xml
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
